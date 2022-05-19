@@ -7,6 +7,7 @@ main > section.items h4 {
     text-align: center;
     margin-top: 0;
     width: 100%;
+    color: aliceblue;
 }
 main {
     display: flex;
@@ -14,6 +15,7 @@ main {
     align-items:flex-start;
     flex-wrap: wrap;
     padding-top: 20px;
+    background: darkred;
 }
 
 main > section.items {
@@ -51,11 +53,13 @@ section.items .description {
     text-align: center;
     font-size: 11px;
     line-height: 15px;
+    color: aliceblue;
 }
 
 section.items  .description .price {
     font-weight: bold;
     margin: 4px auto;
+    color: aliceblue;
 }
 
 section.items  .description .quantity-area {
@@ -84,13 +88,16 @@ section.summary {
     min-height: 200px;
     min-width: 200px;
     text-align: center;
+
 }
 
 section.summary table {
     width: 100%;
     padding-top: 12px;
-    font-size: 11px;
+    font-size: 16px;
+    font-weight: 800;
     margin: auto;
+
 }
 
 section.summary table tbody tr:last-of-type th {
